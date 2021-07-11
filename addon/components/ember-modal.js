@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import layout from '../templates/components/ember-modal';
 
-const { RSVP, on, run } = Ember;
+const { RSVP, run } = Ember;
 const className = 'ember-modal';
 
 export default Ember.Component.extend({
